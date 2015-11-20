@@ -81,6 +81,7 @@ chmod +x $TOOLS_DIR/accept-licenses
 
 
 # Setup environment file
+echo "INSTALLER DIR: $INSTALLER_DIR"
 echo "export ANDROID_HOME=$ANDROID_HOME" > $INSTALLER_DIR/env
 echo "export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$TOOLS_DIR:\$PATH" >> $INSTALLER_DIR/env
 
